@@ -1,0 +1,5 @@
+# Local credentials: never commit real environment files.
+.env
+.env.*
+!.env.example
+.DS_Store

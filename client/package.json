@@ -1,0 +1,63 @@
+{
+  "name": "parqer-booking-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "ajv": "^6.8.1",
+    "apollo-boost": "^0.4.7",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-client": "^2.6.8",
+    "apollo-link": "^1.2.14",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-error": "^1.1.13",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.10.3",
+    "lodash.flowright": "^3.5.0",
+    "moment": "^2.24.0",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.9.0",
+    "react-loader-spinner": "^3.1.14",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-stripe-checkout": "^2.6.3",
+    "reactstrap": "^8.4.1",
+    "serve": "^11.3.0",
+    "server": "^1.0.27",
+    "sweetalert2": "^9.10.12"
+  },
+  "resolutions": {
+    "ajv": "6.8.1"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
