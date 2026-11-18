@@ -1,5 +1,5 @@
 const jwt = require ('jsonwebtoken')
-const secret = 'MERNG-booking'
+const secret = ''
 
 module.exports.createToken = (user) => {
 	let data = {
